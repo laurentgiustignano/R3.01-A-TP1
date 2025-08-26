@@ -1,0 +1,25 @@
+/* Reset */
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* Palette de couleurs */
+:root {
+    --color-basic: #bbb;
+}
+
+body {
+    font-family: Montserrat, Helvetica, sans-serif;
+    background-color: #111;
+    color: var(--color-basic);
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    letter-spacing: 2px;
+}
